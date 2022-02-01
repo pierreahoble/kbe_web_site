@@ -14,5 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.client.index');
 });
+
+//
+Route::view('apropos','pages.client.apropos');
+
+//Route Nos service
+Route::view('nos-services', 'pages.client.nosservice');
+
+//Route notre equipe
+Route::view('notre-equipe', 'pages.client.equipe');
+
+// Route  contact
+Route::view('contact', 'pages.client.contact');
+

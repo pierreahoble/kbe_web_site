@@ -1,13 +1,14 @@
 <footer id="footer" class="footer-area fixed--footer">
 
     <!-- Footer Widgets Area -->
-    <div class="footer-area__widgets section-padding--md bg--dark--light">
+    <div class="footer-area__widgets section-padding--md bg--dark--blue">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-area__logo text-center">
-                        <a href="index.html">
-                            <img src="{{ asset('client/images/logo/logo-footer.png')}}" alt="footer logo">
+                        <a href="{{ url('/') }}">
+                            <img src="{{ asset('client/images/logo/logo-footer.jpg')}}" alt="footer logo"
+                                style="height: 150px;">
                         </a>
                     </div>
                 </div>
@@ -16,9 +17,12 @@
 
                 <!-- Single Widget -->
                 <section class="widget widget-about">
-                    <h5 class="widget-title">ABOUT korde</h5>
-                    <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium oloremque laudantium, totam rem onsectetur sires
-                        to obtain pain of itself because</p>
+                    <h5 class="widget-title">Heure d'activité</h5>
+                    <p>
+                        MERCANTO est disponible 7j/7 pour tout besoin.
+                        Notre équipe de professionnels est à votre service.
+                        Nous sommes au service de vos ambitions.
+                    </p>
                     <div class="social-icons social-icons--rounded">
                         <ul>
                             <li class="facebook">
@@ -48,22 +52,19 @@
 
                 <!-- Single Widget -->
                 <section class="widget widget-quick-links">
-                    <h5 class="widget-title">QUICK LINKS</h5>
+                    <h5 class="widget-title">LIENS RAPIDES</h5>
                     <ul>
                         <li>
-                            <a href="services.html">Our Services</a>
+                            <a href="{{ url('nos-services') }}l">Nos Services</a>
                         </li>
                         <li>
-                            <a href="features.html">Features</a>
+                            <a href="{{ url('apopos') }}">A propos</a>
                         </li>
                         <li>
-                            <a href="about-us.html">About Us</a>
+                            <a href="{{ url('notre-equipe') }}">Notre équipe</a>
                         </li>
                         <li>
-                            <a href="#">Help Centre</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="{{ url('contact') }}">Nous Contacté </a>
                         </li>
                     </ul>
                 </section>
@@ -71,20 +72,14 @@
 
                 <!-- Single Widget -->
                 <section class="widget widget-twitter-feed">
-                    <h5 class="widget-title">Twitter Feed</h5>
+                    <h5 class="widget-title">Fil Twitter </h5>
                     <ul>
                         <li>
                             <p>
-                                <a href="#">@Alex Smith</a>, unde omnis te us error sit voluptatem</p>
+                                <a href="#">@Kevine </a>, unde omnis te us error
+                            </p>
                             <span class="time">
                                 <a href="#">10 Mins ago</a>
-                            </span>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="#">@Justin Bieber</a>, unde omnis te us error sit voluptatem</p>
-                            <span class="time">
-                                <a href="#">12 Mins ago</a>
                             </span>
                         </li>
                     </ul>
@@ -96,22 +91,22 @@
                     <h5 class="widget-title">Contact Info</h5>
                     <ul>
                         <li>
-                            <p>256 Notrh Tower, Western City Mid Town, Las Vagas, USA</p>
+                            <p>Sainte Rita, Cotonou BENIN.</p>
                         </li>
                         <li>
                             <p>
-                                <a href="callto://+00812568987789">+008 12568 987 789</a>
+                                <a href="callto://+22961635706">+229 61 63 57 06</a>
                             </p>
                             <p>
-                                <a href="callto://+00835687567458">+008 35687 567 458</a>
+                                <a href="callto://+22960189898">+229 60 18 98 98</a>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <a href="mailto://info@korde.com">info@korde.com</a>
+                                <a href="mailto://contact@mercanto.net">contact@mercanto.net</a>
                             </p>
                             <p>
-                                <a href="mailto://info@korde.com">www.korde.com</a>
+                                <a href="mailto://contact@mercanto.net">www.mercanto.biz/</a>
                             </p>
                         </li>
                     </ul>
@@ -124,13 +119,13 @@
     <!--// Footer Widgets Area -->
 
     <!-- Footer Copyright Area -->
-    <div class="footer-area__copyright bg--dark">
+    <div class="footer-area__copyright bg--blue">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright text-center">
                         ©COPYRIGHT, ALL RIGHTS RESERVED BY
-                        <a href="https://hastech.company/">HASTECH</a>
+                        <a href="#">KBE-TECHNOLOGIES</a>
                     </div>
                 </div>
             </div>

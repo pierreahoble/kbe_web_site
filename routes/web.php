@@ -20,8 +20,21 @@ Route::get('/', function () {
 //
 Route::view('apropos','pages.client.apropos');
 
-//Route Nos service
-Route::view('nos-services', 'pages.client.nosservice');
+//Route Nos Ingenerie financier
+Route::view('ingenerie-financiere', 'pages.client.nosservice');
+
+//Route Optimisation fiscale
+Route::view('optimisation-fiscale','pages.client.optimisation');
+
+//Route Gestion digitale
+Route::view('gestion-digitale', 'pages.client.digitale');
+
+//Route gestion immobiliere
+Route::view('gestion-immobiliere', 'pages.client.immobiliere');
+
+
+Route::view('prendre-un-rendez-vous', 'pages.client.devis');
+
 
 //Route notre equipe
 Route::view('notre-equipe', 'pages.client.equipe');

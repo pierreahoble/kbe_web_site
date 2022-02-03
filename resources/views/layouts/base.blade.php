@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="fr">
 
 
 <!-- Mirrored from demo.hasthemes.com/korde/korde/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jun 2020 14:46:09 GMT -->
@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Korde - Tax Service HTML Template</title>
+    <title>MERCANTO</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

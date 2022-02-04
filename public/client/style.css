@@ -3624,6 +3624,7 @@ Header Styles
 }
 
 .header__top__info {
+    padding-top: 25px;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
@@ -4365,6 +4366,24 @@ About Area
 }
 .about-area__content2 h3,
 .about-area__content2 h4 {
+    text-transform: uppercase;
+    padding-right: 240px;
+    padding-left: 240px;
+}
+
+
+
+.about-area__content3 {
+    padding-top: 25px;
+    padding-bottom: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about-area__content3 h4 {
+    margin-bottom: 5px;
+}
+.about-area__content3 h3,
+.about-area__content3 h4 {
     text-transform: uppercase;
     padding-right: 240px;
     padding-left: 240px;

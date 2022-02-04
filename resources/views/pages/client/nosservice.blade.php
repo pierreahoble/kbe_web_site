@@ -172,7 +172,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-5 wow fadeInRight order-1 order-lg-2">
                         <div class="pg-features__thumb">
-                            <img src="client/images/feature/feature-thumb-3.jpg" alt="feature thumb 1">
+                            <img src="client/images/feature/feature-thumb-4.jpg" alt="feature thumb 1">
                         </div>
                     </div>
                 </div>

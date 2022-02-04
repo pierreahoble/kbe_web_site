@@ -15,11 +15,11 @@
                                 <i class="flaticon-black-back-closed-envelope-shape"></i> contact@mercanto.net</a>
                         </li>
                     </ul>
-                    <div class="header__top__button">
+                    {{-- <div class="header__top__button">
                         <a class="cr-btn cr-btn--lg" href="{{ url('prendre-un-rendez-vous') }}">
                             <span>Prendre rendez-vous</span>
                         </a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

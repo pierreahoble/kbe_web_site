@@ -284,10 +284,10 @@
         <div class="container">
             <div class="row align-items-center" style="background-color: #182a52;">
                 <div class="col-lg-10 offset-lg-1">
-                    <div class="about-area__content2 text-center">
-                        <h4>NOS
+                    <div class="about-area__content3 text-center">
+                        <h2>NOS
                             <span class="color--theme">PARTENAIRES</span>
-                        </h4>
+                        </h2>
                     </div>
                 </div>
 

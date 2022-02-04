@@ -56,7 +56,7 @@
                                 <img src="client/images/advisors/advisor-3/advisor-1.jpg" alt="Advisor Thumb">
                             </div>
                             <div class="content">
-                                <h6><a href="advisor-details.html">Masmoud Diane</a></h6>
+                                <h6><a href="{{ url('detail-equipe',['id'=>1]) }}">Masmoud Dine</a></h6>
                                 <h6><small>Pôle Finance et Fiscalité</small></h6>
                                 <div class="social-icons">
                                     <ul>
@@ -76,7 +76,7 @@
                                 <img src="client/images/advisors/advisor-3/advisor-2.jpg" alt="Advisor Thumb">
                             </div>
                             <div class="content">
-                                <h6><a href="advisor-details.html">SAMMIRA DERRES</a></h6>
+                                <h6><a href="{{ url('detail-equipe',['id'=>2]) }}">SAMMIRA DERRES</a></h6>
                                 <h6><small>Pôle Finance et Fiscalité</small></h6>
                                 <div class="social-icons">
                                     <ul>
@@ -95,7 +95,7 @@
                             <div class="image"><img src="client/images/advisors/advisor-3/advisor-3.jpg"
                                     alt="Advisor Thumb"></div>
                             <div class="content">
-                                <h6><a href="advisor-details.html">DJAOUDATH ALIDOU </a></h6>
+                                <h6><a href="{{ url('detail-equipe',['id'=>3]) }}">DJAOUDATH ALIDOU </a></h6>
                                 <h6><small>Pôle finance et fiscalité</small></h6>
                                 <div class="social-icons">
                                     <ul>
@@ -114,7 +114,7 @@
                             <div class="image"><img src="client/images/advisors/advisor-3/advisor-4.jpg"
                                     alt="Advisor Thumb"></div>
                             <div class="content">
-                                <h6><a href="advisor-details.html">Nadège ADJOVI </a></h6>
+                                <h6><a href="{{ url('detail-equipe',['id'=>4]) }}">Nadège ADJOVI </a></h6>
                                 <h6><small>Pôle finance et fiscalité</small></h6>
                                 <div class="social-icons">
                                     <ul>
@@ -134,7 +134,7 @@
                             <div class="image"><img src="client/images/advisors/advisor-3/advisor-4.jpg"
                                     alt="Advisor Thumb"></div>
                             <div class="content">
-                                <h6><a href="advisor-details.html">Oscar ADJE </a></h6>
+                                <h6><a href="{{url('detail-equipe',['id'=>5]) }}">Oscar ADJE </a></h6>
                                 <h6><small>Pôle gestion digitale</small></h6>
                                 <div class="social-icons">
                                     <ul>
@@ -154,7 +154,7 @@
                             <div class="image"><img src="client/images/advisors/advisor-3/advisor-4.jpg"
                                     alt="Advisor Thumb"></div>
                             <div class="content">
-                                <h6><a href="advisor-details.html">Alvinice KODJO </a></h6>
+                                <h6><a href="{{url('detail-equipe',['id'=>6]) }}">Alvinice KODJO </a></h6>
                                 <h6><small>Pôle gestion digitale</small></h6>
                                 <div class="social-icons">
                                     <ul>
@@ -175,7 +175,7 @@
                             <div class="image"><img src="client/images/advisors/advisor-3/advisor-4.jpg"
                                     alt="Advisor Thumb"></div>
                             <div class="content">
-                                <h6><a href="advisor-details.html">Florent AGBOBLI </a></h6>
+                                <h6><a href="{{url('detail-equipe',['id'=>7]) }}">Florent AGBOBLI </a></h6>
                                 <h6><small>Pôle gestion digitale</small></h6>
                                 <div class="social-icons">
                                     <ul>
@@ -191,11 +191,11 @@
 
 
                         <!-- Single Team -->
-                        <div class="single-team">
+                        {{-- <div class="single-team">
                             <div class="image"><img src="client/images/advisors/advisor-3/advisor-4.jpg"
                                     alt="Advisor Thumb"></div>
                             <div class="content">
-                                <h6><a href="advisor-details.html">Masmoud DINE </a></h6>
+                                <h6><a href="{{url('detail-equipe',['id'=>8]) }}">Masmoud DINE </a></h6>
                                 <h6><small>Pôle finance et fiscalité</small></h6>
                                 <div class="social-icons">
                                     <ul>
@@ -206,30 +206,8 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!--// Single Team -->
-
-                        {{--
-                        <!-- Single Team -->
-                        <div class="single-team">
-                            <div class="image"><img src="client/images/advisors/advisor-3/advisor-4.jpg"
-                                    alt="Advisor Thumb"></div>
-                            <div class="content">
-                                <h6><a href="advisor-details.html">DJAOUDATH ALIDOU </a></h6>
-                                <h6><small>Pôle finance et fiscalité</small></h6>
-                                <div class="social-icons">
-                                    <ul>
-                                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Team --> --}}
-
-
 
 
 

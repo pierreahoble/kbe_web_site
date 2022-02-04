@@ -42,3 +42,30 @@ Route::view('notre-equipe', 'pages.client.equipe');
 // Route  contact
 Route::view('contact', 'pages.client.contact');
 
+
+
+//Details user 
+Route::get('detail-equipe/{id}', function($id){
+    if ($id == 1) {
+       return view('pages.client.det_1');
+    }else if($id == 2){
+        return view('pages.client.det_2');
+    }else if($id == 3){
+        return view('pages.client.det_3');
+    }else if($id == 4){
+        return view('pages.client.det_4');
+    }
+    else if($id == 5){
+        return view('pages.client.det_5');
+    }
+    else if($id == 6){
+        return view('pages.client.det_6');
+    }
+    else if($id == 7){
+        return view('pages.client.det_7');
+    } else {
+        return redirect()->back();
+    }
+    
+});
+

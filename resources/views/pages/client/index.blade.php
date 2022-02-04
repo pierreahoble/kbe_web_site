@@ -279,15 +279,29 @@
 
 
 
+
+    <section id="pg-services-area" class="cr-section pg-services-area mt-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
+                    <div class="section-title text-center">
+                        <h2>Nos Partenaires et Références</h2>
+                    </div>
+                </div>
+            </div>
+        </div>                    
+    </section>
+
     <!-- About Area -->
     <section id="about-area" class="cr-section about-area bg--white mt-5">
         <div class="container">
             <div class="row align-items-center" style="background-color: #182a52;">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="about-area__content3 text-center">
-                        <h2>NOS
+                        {{-- <h2>NOS
                             <span class="color--theme">PARTENAIRES</span>
-                        </h2>
+                        </h2> --}}
                     </div>
                 </div>
 
